@@ -1,10 +1,36 @@
 <resources>
-    <style name="RNSplashScreen_SplashAnimation">
-        <item name="android:windowExitAnimation">@android:anim/fade_out</item>
-    </style>
-
-    <style name="RNSplashScreen_SplashTheme" parent="Theme.AppCompat.NoActionBar">
-        <item name="android:windowBackground">@drawable/splash</item>
-        <item name="android:windowAnimationStyle">@style/RNSplashScreen_SplashAnimation</item>
-    </style>
+	<style name="RNSplashScreen_SplashAnimation">
+		<item name="android:windowExitAnimation">
+			@android:anim/fade_out
+		</item>
+	</style>
+	<style name="RNSplashScreen_SplashTheme" parent="Theme.AppCompat.NoActionBar">
+		<item name="android:windowBackground">
+			@drawable/launch_screen
+		</item>
+		<item name="android:windowAnimationStyle">
+			@style/RNSplashScreen_SplashAnimation
+		</item>
+		<item name="android:statusBarColor">
+			@android:color/transparent
+		</item>
+		<item name="android:windowTranslucentStatus">
+			true
+		</item>
+		<item name="android:windowBackground">
+			@drawable/launch_screen
+		</item>
+		<item name="android:windowNoTitle">
+			true
+		</item>
+		<item name="android:windowFullscreen">
+			true
+		</item>
+		<item name="android:windowContentOverlay">
+			@null
+		</item>
+		<item name="android:navigationBarColor">
+			@android:color/transparent
+		</item>
+	</style>
 </resources>
